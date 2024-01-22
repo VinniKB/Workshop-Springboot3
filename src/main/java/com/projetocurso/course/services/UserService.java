@@ -26,4 +26,7 @@ public class UserService {
 		// método para recuperar um usuário por Id
 		
 	}
+	public User insert(User obj) {
+		return repository.save(obj);
+	}
 }
